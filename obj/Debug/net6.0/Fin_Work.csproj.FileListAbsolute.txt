@@ -1,0 +1,15 @@
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/bin/Debug/net6.0/Fin_Work
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/bin/Debug/net6.0/Fin_Work.deps.json
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/bin/Debug/net6.0/Fin_Work.runtimeconfig.json
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/bin/Debug/net6.0/Fin_Work.dll
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/bin/Debug/net6.0/Fin_Work.pdb
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.csproj.AssemblyReference.cache
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.AssemblyInfoInputs.cache
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.AssemblyInfo.cs
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.csproj.CoreCompileInputs.cache
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.dll
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/refint/Fin_Work.dll
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.pdb
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/Fin_Work.genruntimeconfig.cache
+/Users/denislarin/Documents/Програмирование/Язык Программирования C#/Fin_Work/obj/Debug/net6.0/ref/Fin_Work.dll
