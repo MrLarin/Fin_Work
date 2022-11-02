@@ -28,7 +28,7 @@ for (int i = 0; i < AS2.Length; i++)
 }
 Console.Write($"\n");
 */
-
+/*
 string[] AS = new string[4];
 for (int i = 0; i < AS.Length; i++)
 {
@@ -50,3 +50,31 @@ for (int i = 0; i < AS.Length; i++)
         Console.Write($"{AS[i]}; ");
     }
 }
+*/
+string[] AS = new string[4];
+for (int i = 0; i < AS.Length; i++)
+{
+    Console.Write("Введите Строку: ");
+    AS[i] = Console.ReadLine()!;
+}
+Console.Write($"[");
+for (int i = 0; i < AS.Length; i++)
+{
+    Console.Write($"{AS[i]};");
+}
+Console.Write($"]");
+Console.Write($"-> ");
+
+
+List<string> AS2 = new List<string>();
+for (int i = 0; i < AS.Length; i++)
+{
+    if (AS[i].Length <= 3)
+    {
+        AS2.Add(AS[i]);
+    }
+}
+Console.Write($"[");
+foreach (var item in AS2)
+    Console.Write($"{item};");
+Console.Write($"]");
