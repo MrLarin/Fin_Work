@@ -1,4 +1,5 @@
-﻿// Вариант решения через создание второго массива. Не подходит!
+﻿/*
+// Вариант решения через создание второго массива. Не подходит!
 //Так как не могу во втором массиве ограничить его размер количеством элементов в нем!
 string[] AS = new string[4];
 for (int i = 0; i < AS.Length; i++)
@@ -115,3 +116,47 @@ Console.Write($"[");
 foreach (var item in AS2)
     Console.Write($"{item};");
 Console.Write($"]");
+*/
+
+string[] AS = new string[4];
+AS = FillAS(4);
+PrintAS(AS);
+
+
+List<string> AS2 = new List<string>();
+for (int i = 0; i < AS.Length; i++)
+{
+    if (AS[i].Length <= 3)
+    {
+        AS2.Add(AS[i]);
+    }
+}
+Console.Write($"[");
+foreach (var item in AS2)
+    Console.Write($"{item};");
+Console.Write($"]");
+
+
+//Метод Заполнения Массива
+string[] FillAS(int n)
+{
+    string[] _AS = new string[n];
+    for (int i = 0; i < _AS.Length; i++)
+    {
+        Console.Write("Введите Строку: ");
+        _AS[i] = Console.ReadLine()!;
+    }
+    return _AS;
+}
+
+//Метод вывода массива
+void PrintAS(string[] _AS)
+{
+    Console.Write($"[");
+    for (int i = 0; i < _AS.Length; i++)
+    {
+        Console.Write($"{_AS[i]};");
+    }
+    Console.Write($"]");
+    Console.Write($"-> ");
+}
