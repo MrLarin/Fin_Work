@@ -51,6 +51,7 @@ for (int i = 0; i < AS.Length; i++)
     }
 }
 */
+/*
 string[] AS = new string[4];
 for (int i = 0; i < AS.Length; i++)
 {
@@ -72,6 +73,37 @@ for (int i = 0; i < AS.Length; i++)
     if (AS[i].Length <= 3)
     {
         AS2.Add(AS[i]);
+    }
+}
+Console.Write($"[");
+foreach (var item in AS2)
+    Console.Write($"{item};");
+Console.Write($"]");
+*/
+
+string s;
+List<string> AS = new List<string>();
+do
+{
+    Console.Write("Введите Значения через Enter: ");
+    s = Console.ReadLine()!;
+    if (s != "")
+        AS.Add(s);
+} while (s != "");
+
+
+Console.Write($"[");
+foreach (var item in AS)
+    Console.Write($"{item};");
+Console.Write($"]");
+Console.Write($"-> ");
+
+List<string> AS2 = new List<string>();
+foreach (var item in AS)
+{
+    if (item.Length <= 3)
+    {
+        AS2.Add(item);
     }
 }
 Console.Write($"[");
